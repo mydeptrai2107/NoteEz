@@ -15,8 +15,5 @@
         android:id="@+id/mi_sort"
         android:title="Sắp xếp ghi chú ngẫu nhiên"
         app:showAsAction="never"/>
-    <item
-        android:id="@+id/mi_setting"
-        android:title="Cài đặt"
-        app:showAsAction="never"/>
+
 </menu>

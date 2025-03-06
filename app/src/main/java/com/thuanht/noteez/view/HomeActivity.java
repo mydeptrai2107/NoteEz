@@ -181,11 +181,6 @@ public class HomeActivity extends AppCompatActivity {
             return true;
         });
 
-        mMenu.findItem(R.id.mi_setting).setOnMenuItemClickListener(item -> {
-            startActivity(new Intent(HomeActivity.this, SettingActivity.class));
-            return true;
-        });
-
         mMenu.findItem(R.id.mi_sort).setOnMenuItemClickListener(item -> {
             if(adapter.toggleSortResult()){
                 try {
